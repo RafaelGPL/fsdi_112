@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}About Me{% endblock title %}
+
+{% block content %}
+<h1>About the author</h1>
+<p>My name is Rafael GPL. I am computer engineer and I have a master's in data science, blablabla.</p>
+<img src="{% static 'img/ducky.jpg' %}" class="ducky-img">
+{% endblock content %}
